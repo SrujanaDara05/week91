@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Automated UI Test') {
 steps {
-bat 'C:\Users\ASUS\OneDrive\Desktop\Devops\Week-2\test_registration.py';
+bat 'C:/Users/ASUS/OneDrive/Desktop/Devops/Week-2/test_registration.py';
 }
 }
     }
